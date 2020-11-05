@@ -1,0 +1,7 @@
+#bootstrap-overrides table tbody th {
+  padding: 0px;
+}
+
+#bootstrap-overrides table tbody td {
+  padding: 0px;
+}
