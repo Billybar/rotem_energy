@@ -75,7 +75,7 @@ CREATE TABLE `salary` (
   `kw_amt` int(11) NOT NULL,
   `kilometer_amt` int(11) NOT NULL,
   `working_day` varchar(255) NOT NULL,
-  `working_date` date NOT NULL DEFAULT current_timestamp(),
+  `working_date` date NOT NULL,
   `employee_notes` text NOT NULL,
   `is_school` varchar(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
