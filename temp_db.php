@@ -14,21 +14,6 @@ $class_arr = [
     'php',
 ];
 
-
-// for ($x = 0; $x < count($student_arr); $x++) {
-
-//     $sql = "INSERT INTO students(name) VALUES('$student_arr[$x]')";
-//     $result = mysqli_query($link, $sql);
-//     echo mysqli_affected_rows($link);
-// }
-
-// for ($x = 0; $x < count($student_arr); $x++) {
-
-//     $sql = "INSERT INTO classs(name) VALUES('$class_arr[$x]')";
-//     $result = mysqli_query($link, $sql);
-//     echo mysqli_affected_rows($link);
-// }
-
 $sql = "UPDATE class_students SET name = 1 WHERE name = 'web'";
 $result = mysqli_query($link, $sql);
 echo mysqli_affected_rows($link);
